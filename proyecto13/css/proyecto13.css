@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(84, 100, 243);
+}
+
+.barra {
+    background-color: blue;
+    height: 45px;
+    width: 50%;
+    margin: 130px auto;
+    box-shadow: inset 6px 6px 12px rgb(8, 8, 247),
+                inset -6px -6px 12px rgb(180, 191, 250);
+    overflow: hidden;
+    border: solid 0.1rem black;
+    border-radius: 20rem;
+}
+
+.progreso {
+    height: 100%;
+    width: 0;
+    background-color: aquamarine;
+    box-shadow: 0 0 10px  aquamarine,
+                0 0 20px aquamarine;
+    display: block;
+    border-radius: 20rem;
+}
+
+.porcentaje {
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    transform: translateY(100px);
+    color: aquamarine;
+
+}
+body.celebracion {
+    background-image: url("../img/celebracion.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
